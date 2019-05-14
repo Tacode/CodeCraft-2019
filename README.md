@@ -33,7 +33,7 @@ Dijkstra是求单点到n点的最短路径方法，我们要求的是单点到�
 
 复赛和决赛才实现了判题器，先用python写的，然后改成C艹，特别感谢粤港澳赛区的皮卡丘队何诚慷大佬开源的可视化判题器，初赛用了他们的判题器，在这
 
-[皮卡丘开源判题器]: https://github.com/AkatsukiCC/huawei2019-with-visualization
+[皮卡丘开源判题器](https://github.com/AkatsukiCC/huawei2019-with-visualization)
 [咖啡最美代码奖]: https://github.com/XavierCai1996/Huawei2019CodeCraft
 [冠军咕咕咕]: https://github.com/kongroo/Huawei-CodeCraft-2019
 
