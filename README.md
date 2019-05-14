@@ -8,7 +8,7 @@
 
 哈哈，这是西北赛区回来聚会的照片，那位拿了最优代码奖的咖啡还没请我们xxoo呢。
 
-![image](https://github.com/Tacode/CodeCraft-2019/master/img/image2.jpeg)
+![image](https://github.com/Tacode/CodeCraft-2019/raw/master/img/image2.jpeg)
 
 
 
