@@ -22,7 +22,7 @@
 
 **Dijkstra最短路径算法+动态寻路**
 
-Dijkstra是求单点到n点的最短路径方法，我们要求的是单点到单点的最短路径，所以搜寻到目标点就可以停止，使用最小堆优化，时间复杂度可由$O(n^2)$变为$O(nlog(n))$。
+Dijkstra是求单点到n点的最短路径方法，我们要求的是单点到单点的最短路径，所以搜寻到目标点就可以停止，使用最小堆优化，时间复杂度可由O(n^2)变为O(nlog(n))。
 
 **建模**
 
@@ -68,3 +68,14 @@ $$forwardTime = \frac{RoadLength}{min(carSpeed, roadSpeed)}$$
 #### 5.车牌识别 
 
 车牌识别魔改了ResNet34网络，在第四个Block之后增加9个分支，对应的车牌中的9个字符，每个分支都是由两层全连接构成。期间，本想利用数据合成程序来生成车牌数据扩充数据集，通过训练发现效果不佳，可能合成的数据分布和官方的不太一致。因此，并没有做过多的数据增强的操作。最终得到了98.3%左右的识别精度。。
+
+#### 文件构成
+CodeCraft-2019:决赛时C++代码
+CodeCraft-Python:初赛时Python代码
+Judge-CPP:独立出来的C++版判题器
+Judge-python：独立出来的Python版判题器
+Plate-Recognition:车牌识别Python代码
+build.sh: CodeCraft-2019代码编译脚本
+run1.sh: CodeCraft-2019代码运行地图一脚本
+run2.sh: CodeCraft-2019代码运行地图二脚本
+
